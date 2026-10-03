@@ -2,6 +2,7 @@
   "name": "laspalmas-avisos-mcp",
   "version": "0.1.0",
   "description": "Servidor MCP y CLI para el sistema de avisos del Ayuntamiento de Las Palmas de Gran Canaria (LPGC Tu Ciudad / LPGC Avisa)",
+  "license": "AGPL-3.0-only",
   "type": "module",
   "repository": {
     "type": "git",

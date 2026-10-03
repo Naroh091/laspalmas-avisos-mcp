@@ -204,3 +204,7 @@ nunca `funnel`). Para persistencia, `launchd`/`pm2`/`tmux` o similar.
 
 - Ingeniería inversa del APK `com.inventiaplus.laspalmas` v3.1.0 + verificación en
   vivo de lecturas y dry-runs (sin crear avisos reales).
+
+## Licencia
+
+AGPLv3. Ver [LICENSE](LICENSE).
