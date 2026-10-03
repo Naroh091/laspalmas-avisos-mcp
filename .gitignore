@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.log
+.tokens.json
+*.tokens.json
+.identity.json
+*.identity.json
+__pycache__/
+*.pyc
+.DS_Store
+*.jpg
+*.jpeg
+*.png
+*.heic

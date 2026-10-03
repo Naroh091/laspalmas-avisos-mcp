@@ -1,0 +1,43 @@
+{
+  "name": "laspalmas-avisos-mcp",
+  "version": "0.1.0",
+  "description": "Servidor MCP y CLI para el sistema de avisos del Ayuntamiento de Las Palmas de Gran Canaria (LPGC Tu Ciudad / LPGC Avisa)",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naroh091/laspalmas-avisos-mcp.git"
+  },
+  "bin": {
+    "laspalmas-avisos-mcp": "dist/server.js",
+    "laspalmas-avisos-mcp-http": "dist/http.js",
+    "laspalmas-avisos": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "scripts",
+    "skill"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "start:http": "node dist/http.js",
+    "dev": "tsc --watch",
+    "cli": "node dist/cli.js",
+    "inspector": "npx @modelcontextprotocol/inspector node dist/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "exif-parser": "^0.1.12",
+    "express": "^4.19.2",
+    "jpeg-js": "^0.4.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
